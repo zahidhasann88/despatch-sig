@@ -1,0 +1,51 @@
+.report-container{
+  margin-top: 100px;
+  border: 4px solid;
+  border-color: #00254e;
+  margin-bottom: 50px;
+  box-shadow: 0px 6px 10px 6px rgba(0, 0, 0, 0.2), 0px 8px 22px 0px rgba(0, 0, 0, 0.19);
+  width: 90%;
+}
+
+.form-header{
+  color: #00254e;
+  font-size: 1.5em;
+  text-align: center;
+}
+.sub-question{
+  margin-left: 50px;
+  background: #C3C3C3;
+}
+textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 100px;
+}
+.sub-card{
+  background: #C3C3C3;
+}
+
+.main-ques{
+  background-color: #9CB8BB;
+  color: black;
+}
+.con-question{
+  /*background: #8c8b8b;*/
+  /*margin-left: 100px;*/
+  border: #0d0d0d;
+}
+
+.required{
+  color:red;
+}
+
+#reportSubmit{
+  border-radius: 20px;
+  width: 20vw;
+  margin-left: 35%;
+  margin-bottom: 5px;
+}
+
+
+/*Check box, Radio Button*/
