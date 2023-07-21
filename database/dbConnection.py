@@ -21,9 +21,9 @@ class Database:
             # MONGODB_URI = "mongodb://csclassroomfeed:mlab123@ds231643.mlab.com:31643/upgbrac"
             # MONGODB_URI = 'mongodb://localhost:27017/upgbrac'
             ########## https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
-            MONGODB_URI = "mongodb+srv://sigcen:sigcen1234@cluster0.vubjfjb.mongodb.net/?retryWrites=true&w=majority"
+            MONGODB_URI = "mongodb+srv://sigcen:despatch1234@cluster0.vubjfjb.mongodb.net/?retryWrites=true&w=majority"
             client = MongoClient(MONGODB_URI, connectTimeoutMS=30000, retryWrites=False)
-            self.db = client.get_database("sigcen")
+            self.db = client.get_database("despatch")
         else:
             client = MongoClient('localhost', 27017)
             self.db = client.sigcen
